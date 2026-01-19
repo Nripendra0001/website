@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+  border-end-end-radius: initial;
+  text-align: center;
+  box-shadow: 20cqh;
+  
+}
+h1{
+  color: rgb(12, 68, 141);
+  border-width: 2px;
+  border: 20px;
+}
+label{
+  font-size: larger;
+  color: black;
+}
+input{
+  border-radius: 10px;
+  padding-left: 5vw;
+  margin: 2px;
+  background-color: rgb(195, 217, 83);
+  
+  
+}
+Form {
+  border: 2px color red;
+  background: rgb(156, 42, 169);
+  box-shadow: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-top: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
+  padding-bottom: 30px;
+  margin-top: 250px;
+  text-align: center;
+}
+button{
+  color: blue;
+  background-color: yellow;
+}
+

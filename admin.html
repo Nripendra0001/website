@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ADMIN | NOTES 2025</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<form onsubmit="return false;">
+  
+  <div class="card" id="loginBox">
+    <h1>ADMIN LOGIN</h1>
+    <input type="text" id="username" placeholder="Admin Username">
+    <br>
+    <input type="password" id="password" placeholder="Admin Password">
+    <br>
+    <button type="button" onclick="login()">Admin Login</button>
+  </div>
+
+  <div class="card" id="uploadBox" style="display:none;">
+    <h1>UPLOAD NOTES</h1>
+    <input type="text" id="subject" placeholder="Subject / Class">
+    <input type="file" id="note">
+    <button type="button" onclick="uploadNote()">UPLOAD FILE</button>
+  </div>
+
+</form>
+
+<script src="admin.js"></script>
+</body>
+</html>

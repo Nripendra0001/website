@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NOTES 2025 | PRO</title>
+  <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">🔥NOTES BY NRIPENDRA & COMPANY</div>
+
+  <div class="container">
+    <h1>Choose Subject</h1>
+
+    <div id="subjects" class="subject-grid"></div>
+
+    <input type="text" id="search" placeholder="Search notes..." onkeyup="searchNotes()">
+
+    <h2 id="notesTitle"></h2>
+    <div id="notes" class="notes-grid"></div>
+
+    <!-- ================= IMPORTANT LINKS ================= -->
+    <section class="important-links">
+      <h2>🎓 Important University Links</h2>
+
+      <div class="links-grid">
+
+        <!-- CCSU -->
+        <div class="link-card">
+          <h3>CCSU – Chaudhary Charan Singh University</h3>
+          <a href="https://www.ccsuniversity.ac.in" target="_blank">🌐 Official Website</a>
+          <a href="https://www.ccsuniversity.ac.in/Examination.php" target="_blank">📝 Examination</a>
+          <a href="https://www.ccsuniversity.ac.in/Result.php" target="_blank">📊 Results</a>
+          <a href="https://www.ccsuniversity.ac.in/Syllabus.php" target="_blank">📚 Syllabus</a>
+          <a href="https://www.ccsuniversity.ac.in/Notice.php" target="_blank">📢 Notices</a>
+        </div>
+
+        <!-- SCRIET -->
+        <div class="link-card">
+          <h3>SCRIET – C.C.S University Campus</h3>
+          <a href="https://www.scriet.ccsuniversity.ac.in" target="_blank">🌐 Official Website</a>
+          <a href="https://www.scriet.ccsuniversity.ac.in/notice-board/" target="_blank">📢 Notice Board</a>
+          <a href="https://www.scriet.ccsuniversity.ac.in/syllabus/" target="_blank">📚 Syllabus</a>
+          <a href="https://www.scriet.ccsuniversity.ac.in/results/" target="_blank">📊 Results</a>
+          <a href="https://www.scriet.ccsuniversity.ac.in/contact-us/" target="_blank">☎ Contact</a>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- ================= CHATBOT ================= -->
+<!-- ================= CHATBOT : NP ASSIST ================= -->
+<div class="np-bot-btn" onclick="toggleNPBot()">🤖</div>
+
+<div class="np-bot-box" id="npBot">
+  <div class="np-bot-header">
+    NP-Assist
+    <span onclick="toggleNPBot()">✖</span>
+  </div>
+
+  <div class="np-bot-body" id="npBotBody">
+    <div class="np-bot-msg">
+      👋 Hi! Main <b>Nripendra Chat-bot</b> hoon.  
+      Notes, subjects aur downloads me madad kar sakta hoon.
+    </div>
+  </div>
+
+  <div class="np-bot-input">
+    <input type="text" id="npBotInput" placeholder="Type here..." />
+    <button onclick="sendNPMsg()">SEND</button>
+  </div>
+</div>
+
+
+    POWERED BY NRIPENDRA PANDEY & COMPANY | ALL RIGHTS RESERVED
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
